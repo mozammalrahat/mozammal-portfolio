@@ -37,7 +37,7 @@ export function ResearchSection() {
                                             className={`text-xs ${
                                                 publication.type === "journal" 
                                                     ? "bg-green-500/10 text-green-600 dark:text-green-400 border-green-500/20"
-                                                    : publication.type === "conference"
+                                                    : publication.type === "thesis"
                                                     ? "bg-blue-500/10 text-blue-600 dark:text-blue-400 border-blue-500/20"
                                                     : "bg-yellow-500/10 text-yellow-600 dark:text-yellow-400 border-yellow-500/20"
                                             }`}
@@ -45,24 +45,17 @@ export function ResearchSection() {
                                             {publication.type === "journal" && (
                                                 <FileText className="w-3 h-3 mr-1" />
                                             )}
-                                            {publication.type === "conference" && (
+                                            {publication.type === "thesis" && (
+                                                <GraduationCap className="w-3 h-3 mr-1" />
+                                            )}
+                                            {publication.type === "in-progress" && (
                                                 <BookOpen className="w-3 h-3 mr-1" />
                                             )}
-                                            {publication.type}
+                                            {publication.status}
                                         </Badge>
-                                        {publication.type === "journal" && (
-                                            <Badge variant="secondary" className="text-xs">
-                                                Published
-                                            </Badge>
-                                        )}
-                                        {publication.type === "conference" && (
-                                            <Badge variant="secondary" className="text-xs">
-                                                Thesis
-                                            </Badge>
-                                        )}
-                                        {publication.type === "preprint" && (
-                                            <Badge variant="secondary" className="text-xs">
-                                                In Progress
+                                        {publication.venue && (
+                                            <Badge variant="outline" className="text-xs">
+                                                {publication.venue}
                                             </Badge>
                                         )}
                                     </div>
@@ -93,18 +86,7 @@ export function ResearchSection() {
                                 </div>
                             )}
 
-                            {/* Venue */}
-                            {(publication.journal || publication.conference) && (
-                                <div className="flex items-start gap-2 text-sm bg-muted/50 px-3 py-2 rounded-lg">
-                                    <BookOpen className="w-4 h-4 text-primary mt-0.5" />
-                                    <div>
-                                        <span className="font-medium text-foreground">Published in: </span>
-                                        <span className="text-muted-foreground">
-                                            {publication.journal || publication.conference}
-                                        </span>
-                                    </div>
-                                </div>
-                            )}
+
                         </div>
                     ))}
                 </div>

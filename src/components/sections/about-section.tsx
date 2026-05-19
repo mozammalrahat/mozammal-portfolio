@@ -72,11 +72,6 @@ export function AboutSection() {
                                 EEG signal processing. My research on prostate cancer diagnosis using CNNs has been published, and I&apos;m
                                 currently developing convolutional variational autoencoders for artifact detection in EEG signals.
                             </p>
-                            <p className="text-muted-foreground leading-relaxed">
-                                Passionate about solving complex problems through code—I&apos;ve solved 600+ competitive programming problems
-                                across platforms like LeetCode, HackerRank, and Codeforces. Winner of the Nano Banana 48-hour Hackathon
-                                with FrameFlow, an AI-powered application using multi-model Gemini API orchestration.
-                            </p>
                         </div>
 
                         {/* Action Buttons */}

@@ -6,8 +6,8 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   // Uncomment the lines below if deploying to a repository (not username.github.io)
-  basePath: '/mozammal-portfolio',
-  assetPrefix: '/mozammal-portfolio',
+  // basePath: '/mozammal-portfolio',
+  // assetPrefix: '/mozammal-portfolio',
 };
 
 export default nextConfig;

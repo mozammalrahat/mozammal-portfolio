@@ -9,7 +9,7 @@ export const personalInfo: PersonalInfo = {
         Experienced in architecting enterprise-grade agent memory systems, implementing A2A protocol orchestration, and 
         building scalable AI solutions operating on petabyte-scale datasets. Published researcher in deep learning for 
         medical image analysis with ongoing work in explainable AI. Passionate about advancing AI systems through 
-        rigorous engineering and research. Competitive programmer with 600+ problems solved.`,
+        rigorous engineering and research.`,
     profileImage: "/images/mozammal-hossain.jpg",
     resumeUrl: "/documents/Mozammal_Hossain_Resume.pdf",
     cvUrl: "/documents/Mozammal_Hossain_CV.pdf",
@@ -339,17 +339,17 @@ export const skills: Skill[] = [
     { name: "Python", category: "Backend", proficiency: "expert", yearsOfExperience: 4 },
     { name: "JavaScript", category: "Frontend", proficiency: "expert", yearsOfExperience: 4 },
     { name: "TypeScript", category: "Frontend", proficiency: "expert", yearsOfExperience: 3 },
-    { name: "Java", category: "Backend", proficiency: "advanced", yearsOfExperience: 3 },
-    { name: "C", category: "Backend", proficiency: "advanced", yearsOfExperience: 4 },
-    { name: "C++", category: "Backend", proficiency: "advanced", yearsOfExperience: 4 },
-    { name: "Bash", category: "DevOps", proficiency: "advanced", yearsOfExperience: 3 },
+    { name: "Java", category: "Backend", proficiency: "advanced", yearsOfExperience: 1 },
+    { name: "C", category: "Backend", proficiency: "advanced", yearsOfExperience: 2 },
+    { name: "C++", category: "Backend", proficiency: "advanced", yearsOfExperience: 2 },
+    { name: "Bash", category: "DevOps", proficiency: "advanced", yearsOfExperience: 4 },
     { name: "SQL", category: "Database", proficiency: "expert", yearsOfExperience: 4 },
 
     // Backend Frameworks & Tools
-    { name: "FastAPI", category: "Backend", proficiency: "expert", yearsOfExperience: 2 },
+    { name: "FastAPI", category: "Backend", proficiency: "expert", yearsOfExperience: 3 },
     { name: "Django", category: "Backend", proficiency: "expert", yearsOfExperience: 3 },
     { name: "Django REST Framework", category: "Backend", proficiency: "expert", yearsOfExperience: 3 },
-    { name: "Celery", category: "Backend", proficiency: "advanced", yearsOfExperience: 2 },
+    { name: "Celery", category: "Backend", proficiency: "advanced", yearsOfExperience: 3 },
     { name: "Flask", category: "Backend", proficiency: "advanced", yearsOfExperience: 2 },
     { name: "Node.js", category: "Backend", proficiency: "expert", yearsOfExperience: 3 },
     { name: "Express.js", category: "Backend", proficiency: "expert", yearsOfExperience: 3 },
@@ -364,16 +364,16 @@ export const skills: Skill[] = [
     { name: "MySQL", category: "Database", proficiency: "expert", yearsOfExperience: 4 },
     { name: "PostgreSQL", category: "Database", proficiency: "expert", yearsOfExperience: 4 },
     { name: "MongoDB", category: "Database", proficiency: "expert", yearsOfExperience: 3 },
-    { name: "Vector Databases", category: "Database", proficiency: "advanced", yearsOfExperience: 2 },
+    { name: "Vector Databases", category: "Database", proficiency: "advanced", yearsOfExperience: 3 },
     { name: "Neo4j", category: "Database", proficiency: "intermediate", yearsOfExperience: 1 },
 
     // AI/ML Tools & Technologies
     { name: "LangGraph", category: "AI/ML Tools", proficiency: "expert", yearsOfExperience: 2 },
-    { name: "LangChain", category: "AI/ML Tools", proficiency: "expert", yearsOfExperience: 2 },
+    { name: "LangChain", category: "AI/ML Tools", proficiency: "expert", yearsOfExperience: 3 },
     { name: "LangSmith", category: "AI/ML Tools", proficiency: "advanced", yearsOfExperience: 2 },
     { name: "LlamaIndex", category: "AI/ML Tools", proficiency: "advanced", yearsOfExperience: 2 },
-    { name: "MCP", category: "AI/ML Tools", proficiency: "expert", yearsOfExperience: 2 },
-    { name: "A2A Protocol", category: "AI/ML Tools", proficiency: "expert", yearsOfExperience: 2 },
+    { name: "MCP", category: "AI/ML Tools", proficiency: "expert", yearsOfExperience: 1 },
+    { name: "A2A Protocol", category: "AI/ML Tools", proficiency: "expert", yearsOfExperience: 1 },
     { name: "vLLM", category: "AI/ML Tools", proficiency: "advanced", yearsOfExperience: 1 },
     { name: "n8n", category: "AI/ML Tools", proficiency: "intermediate", yearsOfExperience: 1 },
     { name: "Vertex AI Agent Engine", category: "AI/ML Tools", proficiency: "advanced", yearsOfExperience: 1 },
@@ -384,7 +384,7 @@ export const skills: Skill[] = [
     { name: "XGBoost", category: "AI/ML Tools", proficiency: "advanced", yearsOfExperience: 2 },
     { name: "NumPy", category: "AI/ML Tools", proficiency: "expert", yearsOfExperience: 4 },
     { name: "Pandas", category: "AI/ML Tools", proficiency: "expert", yearsOfExperience: 4 },
-    { name: "Matplotlib", category: "AI/ML Tools", proficiency: "advanced", yearsOfExperience: 3 },
+    { name: "Matplotlib", category: "AI/ML Tools", proficiency: "advanced", yearsOfExperience: 4 },
 
     // Cloud (AWS)
     { name: "AWS Lambda", category: "Cloud (AWS)", proficiency: "advanced", yearsOfExperience: 2 },
@@ -394,7 +394,7 @@ export const skills: Skill[] = [
     { name: "Amazon RDS", category: "Cloud (AWS)", proficiency: "advanced", yearsOfExperience: 2 },
     { name: "AWS SageMaker", category: "Cloud (AWS)", proficiency: "advanced", yearsOfExperience: 2 },
     { name: "AWS Bedrock", category: "Cloud (AWS)", proficiency: "expert", yearsOfExperience: 2 },
-    { name: "Amazon EKS", category: "Cloud (AWS)", proficiency: "intermediate", yearsOfExperience: 1 },
+    { name: "Amazon EKS", category: "Cloud (AWS)", proficiency: "intermediate", yearsOfExperience: 2 },
 
     // DevOps & Tools
     { name: "Docker", category: "DevOps", proficiency: "expert", yearsOfExperience: 3 },
@@ -417,7 +417,7 @@ export const skills: Skill[] = [
     { name: "Multi-Agent Systems", category: "Core", proficiency: "expert", yearsOfExperience: 2 },
     { name: "Software Architecture", category: "Core", proficiency: "expert", yearsOfExperience: 3 },
     { name: "System Design", category: "Core", proficiency: "expert", yearsOfExperience: 3 },
-    { name: "REST APIs", category: "Core", proficiency: "expert", yearsOfExperience: 4 },
+    // { name: "REST APIs", category: "Core", proficiency: "expert", yearsOfExperience: 4 },
     { name: "Microservices", category: "Core", proficiency: "advanced", yearsOfExperience: 2 },
 ];
 
@@ -475,6 +475,8 @@ export const research: Publication[] = [
         date: "2022",
         abstract: "Explored different aspects of applying Deep Learning for diagnosing prostate cancer and Gleason grading in histopathology images. Analyzed image pre-processing, post-processing, and evaluation techniques and their limitations. Examined existing deep learning methodological approaches and their impact on differentiating various prostate cancer Gleason grades. Identified promising solutions to resolve obstacles faced in prostate cancer detection and Gleason grading, and discussed existing limitations and future scope in the field.",
         type: "journal",
+        status: "Published",
+        venue: "Elsevier",
     },
     {
         id: "2",
@@ -482,7 +484,8 @@ export const research: Publication[] = [
         authors: ["Mozammal Hossain", "Khalad Hasan (Supervisor, UBC)"],
         date: "2023",
         abstract: "Developed an AR system for exploring spatial and temporal-awareness solutions in synchronized, remote collaborative augmented reality. Designed a study with two design factors: representation of the user (mini avatar and large avatar + Ray) and update style (dynamic and static). Collected user reviews and selection time to analyze the results. Found that participants preferred the dynamic update style and large avatar representation for exploring spatial and temporal-awareness solutions in AR. This research was supervised by Khalad Hasan (Assistant Professor, UBC).",
-        type: "conference",
+        type: "thesis",
+        status: "Undergraduate Thesis",
     },
     {
         id: "3",
@@ -490,7 +493,8 @@ export const research: Publication[] = [
         authors: ["Mozammal Hossain"],
         date: "2024",
         abstract: "Currently developing a Convolutional Variational Autoencoder (CVAE) for muscle-movement artifact detection in EEG signals. Implementing preprocessing steps including EEG topographic map generation and latent space disentanglement techniques to separate artifact-related components. Future work includes reconstructing clean EEG signals using disentangled latent space components and evaluating model performance using metrics like SSIM, MSE, and SNR. Explainable AI (XAI) techniques such as attention visualization and latent space exploration will be integrated to interpret the model's artifact detection capabilities. The model will be benchmarked against traditional (ICA) and modern deep learning methods to demonstrate improvements in generalization and interpretability.",
-        type: "preprint",
+        type: "in-progress",
+        status: "In Progress",
     },
 ];
 
@@ -534,8 +538,7 @@ export const seoConfig = {
 export const stats = [
     { label: "Years Experience", value: "3+" },
     { label: "Projects Delivered", value: "10+" },
-    { label: "Research Publications", value: "3" },
-    { label: "Problems Solved", value: "600+" },
+    { label: "Research & Publications", value: "3+" },
 ];
 
 // Featured technologies for hero animation

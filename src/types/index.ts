@@ -117,7 +117,9 @@ export interface Publication {
     date: string;
     url?: string;
     abstract?: string;
-    type: "journal" | "conference" | "workshop" | "preprint";
+    type: "journal" | "conference" | "workshop" | "preprint" | "thesis" | "in-progress";
+    status?: string;
+    venue?: string;
 }
 
 // Component Props Types

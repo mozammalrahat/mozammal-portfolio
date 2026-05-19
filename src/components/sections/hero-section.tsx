@@ -108,11 +108,11 @@ export function HeroSection() {
                     </div>
 
                     {/* Stats Grid */}
-                    <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 max-w-3xl mx-auto pt-4">
+                    <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto pt-4">
                         {stats.map((stat, index) => (
                             <div
                                 key={index}
-                                className="p-5 rounded-xl border bg-card hover:shadow-md transition-shadow text-center"
+                                className="p-5 rounded-xl border bg-card hover:shadow-md transition-shadow text-center min-w-[140px] flex-1 max-w-[200px]"
                             >
                                 <div className="text-3xl font-bold text-primary mb-1">
                                     {stat.value}
