@@ -12,7 +12,7 @@ export const personalInfo: PersonalInfo = {
         rigorous engineering and research.`,
     profileImage: "/images/mozammal-hossain.jpg",
     resumeUrl: "/documents/Mozammal_Hossain_Resume.pdf",
-    cvUrl: "/documents/Mozammal_Hossain_CV.pdf",
+    cvUrl: "/documents/Mozammal_Hossain_Resume.pdf",
 };
 
 export const contactInfo: ContactInfo = {
