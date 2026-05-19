@@ -538,7 +538,7 @@ export const seoConfig = {
 export const stats = [
     { label: "Years Experience", value: "3+" },
     { label: "Projects Delivered", value: "10+" },
-    { label: "Research & Publications", value: "3+" },
+    { label: "Research & Publications", value: "3" },
 ];
 
 // Featured technologies for hero animation
